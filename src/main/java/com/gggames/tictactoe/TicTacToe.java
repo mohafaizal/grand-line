@@ -13,7 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TicTacToe {
-
+	
+	private GameBoard gameBoard;
+	
 	private final int[][] board;
 	private final int n;
 	private final int[] rowSum, colSum;
