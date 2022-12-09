@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.gggames</groupId>
 	<artifactId>tictactoe</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<name>tictactoe</name>
 	<description>TicTacToe game project for Spring Boot</description>
 	<properties>
@@ -52,6 +52,14 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+
+			<!--
+				<configuration>
+					<image>
+						<name>grand-line/${project.groupId}-${project.artifactId}-${project.version}</name>
+						<pullPolicy>IF_NOT_PRESENT</pullPolicy>
+					</image>
+				</configuration> -->
 			</plugin>
 		</plugins>
 	</build>
